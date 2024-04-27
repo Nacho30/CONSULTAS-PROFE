@@ -1,0 +1,62 @@
+.padre{
+    position: relative;  
+} 
+
+body {
+    background-image: url(../imagenes/Agregar\ un\ título.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position: -30px top;
+
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+.cabecera {
+    background-color: transparent; /* Fondo transparente */
+    color: #333; /* Color de texto */
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 48px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efecto de sombra */
+    transition: text-shadow 0.3s ease; /* Transición suave para el efecto */
+}
+
+.titulo:hover {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Efecto de sombra al pasar el cursor */
+}
+
+h3:hover {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Efecto de sombra al pasar el cursor */
+}
+input::placeholder {
+    color: #999;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: border-color  0.3s ease;
+    transition: all 0.3s;
+    }
+    input:focus::placeholder {
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: normal;
+    }
+
+    input:focus{
+        border-color: #e74c3c;
+    }
